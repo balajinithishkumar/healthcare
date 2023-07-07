@@ -1,0 +1,35 @@
+.doctor {
+  .searchinfo {
+    border: 1px solid rgb(186, 185, 185);
+    //     margin-bottom: 10px;
+    padding: 30px;
+    width: 280;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .s_f_name {
+      padding-top: 20px;
+      name {
+        font-size: large;
+        font-weight: 600;
+        color: rgb(93, 92, 92);
+      }
+    }
+    .profession {
+      padding-top: 10px;
+      h {
+        color: rgb(162, 157, 157);
+        font-weight: 500;
+        font-size: 15px;
+      }
+    }
+  }
+
+  .infos_S {
+    //     border: 1px solid black;
+    padding: 2px;
+    width: fit-content;
+    border-radius: 100px;
+  }
+}

@@ -1,0 +1,224 @@
+.login {
+  display: flex;
+  height: 100vh;
+  .container_1,
+  .container_2 {
+    width: 50%;
+    height: 100%;
+  }
+  .container_1 {
+    .header_login > logo {
+      display: flex;
+      align-items: center;
+      height: 7vh;
+
+      font-size: large;
+      font-weight: 200;
+      color: rgb(87, 86, 86);
+      text {
+        display: flex;
+        p {
+          color: #5e0e6d;
+          font-weight: 600;
+          padding-right: 3px;
+        }
+      }
+    }
+    .header_login {
+      border-bottom: 2px solid rgb(244, 242, 242);
+    }
+    img {
+      width: 90px;
+    }
+  }
+  .login_info {
+    display: flex;
+    height: 92vh;
+    justify-content: center;
+    align-items: center;
+  }
+  .info {
+    flex-direction: column;
+    display: flex;
+    height: 45%;
+    justify-content: space-between;
+    .option1 {
+      height: 30vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .option3 {
+      width: 100%;
+      border-bottom: 2px solid rgb(240, 238, 238);
+      padding-bottom: 20px;
+      text {
+        display: flex;
+        color: #5e0e6d;
+        justify-content: end;
+        font-weight: 700;
+        cursor: pointer;
+      }
+    }
+    .option4 {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      text {
+        font-size: medium;
+        font-weight: 600;
+        color: rgb(76, 69, 69);
+      }
+      button {
+        background-color: #851d97;
+        border-radius: 5px;
+        padding: 10px 20px 10px 20px;
+        color: white;
+        font-size: medium;
+        outline-width: 0;
+        border: none;
+        cursor: pointer;
+      }
+    }
+    .option1 .opt1_Com {
+      h {
+        font-weight: 600;
+        font-size: xx-large;
+      }
+      p {
+        color: gray;
+        font-weight: 600;
+        width: 90%;
+        padding-top: 10px;
+      }
+    }
+    .inputs .input_title1,
+    .input_title2 text {
+      font-weight: 700;
+    }
+    .input_title1,
+    .input_title2 {
+      display: flex;
+      width: 100%;
+      align-items: center;
+      justify-content: space-between;
+      input {
+        border-radius: 5px;
+        border: 2px solid rgb(241, 239, 239);
+        height: 40px;
+        outline-width: 0;
+        max-width: 500px;
+        width: 50%;
+        font-size: medium;
+      }
+      input:focus {
+        border: 2px solid #a68fab;
+      }
+    }
+    .input_title1 {
+      padding-bottom: 30px;
+    }
+  }
+}
+
+.container_2 {
+  background-color: #5e0e6d;
+  height: 100vh;
+  display: flex;
+  .slider {
+    display: flex;
+    width: 100%;
+  }
+  .slide {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .images {
+    .image {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      img {
+        width: 100%;
+        image-rendering: -webkit-optimize-contrast;
+        max-width: 80%;
+        border-radius: 30px;
+      }
+    }
+  }
+
+  .wesite_info {
+    display: flex;
+    flex-direction: column;
+    height: 20vh;
+    justify-content: space-between;
+    .infoss {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      .headerss {
+        display: flex;
+        justify-content: center;
+        font-size: x-large;
+        color: white;
+        font-weight: 700;
+        padding-bottom: 10px;
+      }
+
+      .hos_info p {
+        display: flex;
+        justify-content: center;
+        font-size: 16px;
+        color: rgb(200, 197, 197);
+        font-weight: 600;
+        line-height: 30px;
+
+        text-align: center;
+      }
+    }
+    .infoss,
+    .radios {
+      display: flex;
+      justify-content: center;
+    }
+    .radios {
+      display: flex;
+      justify-content: space-between;
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+      .radio_btns {
+        width: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .radio1 {
+          width: 15px;
+          border: 0.15em solid red;
+          height: 15px;
+        }
+      }
+      button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: larger;
+        font-weight: bold;
+        color: #5e0e6d;
+        padding: 20px;
+        width: 25px;
+        background-color: white;
+        border: none;
+        height: 25px;
+        cursor: pointer;
+        border-radius: 300px;
+        outline-width: 0;
+      }
+    }
+  }
+}

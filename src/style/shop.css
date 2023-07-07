@@ -1,0 +1,13 @@
+.shop_items {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.shop {
+  padding-top: 100px;
+}
+
+.S_header h1 {
+  -webkit-text-decoration: wavy;
+          text-decoration: wavy;
+}/*# sourceMappingURL=shop.css.map */

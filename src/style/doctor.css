@@ -1,0 +1,32 @@
+.doctor .searchinfo {
+  border: 1px solid rgb(186, 185, 185);
+  padding: 30px;
+  width: 280;
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.doctor .searchinfo .s_f_name {
+  padding-top: 20px;
+}
+.doctor .searchinfo .s_f_name name {
+  font-size: large;
+  font-weight: 600;
+  color: rgb(93, 92, 92);
+}
+.doctor .searchinfo .profession {
+  padding-top: 10px;
+}
+.doctor .searchinfo .profession h {
+  color: rgb(162, 157, 157);
+  font-weight: 500;
+  font-size: 15px;
+}
+.doctor .infos_S {
+  padding: 2px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  border-radius: 100px;
+}/*# sourceMappingURL=doctor.css.map */

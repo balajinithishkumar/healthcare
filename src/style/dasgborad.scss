@@ -1,0 +1,304 @@
+.dashboard_c {
+  display: flex;
+  width: 100%;
+  .dashborad1 {
+    width: 70%;
+
+    height: 100vh;
+    .dash_op1 {
+      display: flex;
+      justify-content: space-between;
+      height: 20vh;
+      .info {
+        p {
+          color: gray;
+          font-size: large;
+          padding-top: 15px;
+        }
+      }
+      .search_icon {
+        .MuiSvgIcon-root {
+          display: flex;
+          align-items: center;
+          padding: 15px;
+          border-radius: 40px;
+          background-color: rgb(247, 247, 247);
+        }
+      }
+    }
+    .dash_op2 {
+      height: 30vh;
+      display: flex;
+      padding: 0 20px 0 20px;
+      justify-content: space-between;
+      .Blood_s .b_p_1 {
+        icon {
+          .MuiSvgIcon-root {
+            background-color: rgb(137, 137, 244);
+          }
+        }
+      }
+      .Blood_d .b_p_1 {
+        icon {
+          .MuiSvgIcon-root {
+            background-color: rgb(247, 206, 128);
+          }
+        }
+      }
+      .Blood_s .b_p_3 {
+        number1 {
+          color: rgb(48, 48, 110) !important;
+        }
+      }
+      .Blood_d .b_p_3 {
+        number1 {
+          color: rgb(187, 128, 18) !important;
+        }
+      }
+      .Blood_p,
+      .Blood_s,
+      .Blood_d {
+        border: 1px solid rgb(248, 243, 243);
+        height: 70%;
+        border-bottom-right-radius: 100px;
+        width: 250px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        icon {
+          .MuiSvgIcon-root {
+            padding: 10px;
+            background-color: rgb(185, 252, 185);
+            border-radius: 70px;
+            font-size: 30px;
+            color: rgb(86, 85, 85);
+          }
+        }
+        .b_p_2 {
+          display: flex;
+          justify-content: space-between;
+        }
+        .b_p_3 {
+          number1 {
+            font-size: xx-large;
+            color: rgb(2, 26, 2);
+            font-weight: 600;
+          }
+        }
+        .text_1 {
+          p {
+            font-weight: 600;
+          }
+        }
+        .text_2 {
+          font-weight: 400;
+        }
+      }
+      .b_p_4 {
+        font-weight: 500;
+      }
+    }
+    .dash_op3 {
+      height: 50vh;
+      h {
+        font-size: x-large;
+        font-weight: 600;
+      }
+    }
+    .dash_op3 {
+      .dash_op3_ {
+        padding-bottom: 30px;
+      }
+    }
+    .report {
+      padding: 30px;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      width: 200px;
+      height: 25vh;
+      background-color: rgb(82, 92, 134);
+      .rep_1 {
+        display: flex;
+        align-items: center;
+
+        img {
+          width: 45px;
+          border-radius: 50px;
+        }
+        p {
+          color: white;
+          font-weight: 600;
+          padding-left: 20px;
+        }
+      }
+      .rep_2 {
+        p {
+          color: white;
+          font-weight: 300;
+          color: rgb(183, 181, 181);
+        }
+      }
+      .rep_3 {
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .opt1 {
+          display: flex;
+          flex-direction: column;
+          padding-right: 20px;
+        }
+        .opt3 {
+          display: flex;
+          flex-direction: column;
+          padding-left: 20px;
+        }
+        .opt2 {
+          p {
+            width: 2px;
+            height: 35px;
+            background-color: gray;
+          }
+        }
+      }
+      .rep_4 {
+        button {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 180px;
+          height: 45px;
+          font-size: 14px;
+          font-weight: 500;
+          color: white;
+          background-color: rgb(63, 63, 84);
+          border: none;
+        }
+      }
+      .rep_5 {
+        color: white;
+        display: flex;
+        justify-content: center;
+      }
+    }
+  }
+  .dashborad2 {
+    width: 30%;
+    height: 100vh;
+
+    background-color: rgb(248, 248, 248);
+    .dash__com {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .d2_op_1 {
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+        align-items: center;
+        padding-top: 20px;
+        p {
+          font-size: 20px;
+          font-weight: 600;
+          color: rgb(84, 83, 83);
+        }
+        .dash_icon {
+          .MuiSvgIcon-root {
+            background-color: rgb(235, 233, 233);
+            padding: 10px;
+            border-radius: 50px;
+          }
+        }
+      }
+      .d2_op_2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 40px;
+
+        .pro_name {
+          font-size: 28px;
+          color: rgb(64, 64, 64);
+          font-weight: 600;
+        }
+        .pro_suffer {
+          font-weight: 600;
+          color: rgb(69, 69, 69);
+          padding-top: 10px;
+          font-size: 17px;
+        }
+      }
+      .d2_op_3 {
+        display: flex;
+        margin-top: 30px;
+        background-color: rgb(185, 194, 249);
+
+        justify-content: space-between;
+        width: 380px;
+        height: 22vh;
+        border-bottom-right-radius: 50px;
+        .days1 {
+          background-color: rgb(206, 243, 245);
+          padding: 30px 30px 30px 30px;
+          border-bottom-right-radius: 30px;
+          width: 50%;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+        }
+        .days2 {
+          padding: 30px 30px 30px 30px;
+
+          border-bottom-right-radius: 30px;
+
+          background-color: rgb(185, 194, 249);
+          width: 50%;
+        }
+        .days1,
+        .days2 {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+
+          .days1_op1 {
+            display: flex;
+            align-items: center;
+            number {
+              font-size: xx-large;
+              font-weight: 600;
+            }
+            p {
+              padding-top: 10px;
+              padding-left: 5px;
+            }
+          }
+          .days1_op2 {
+            p {
+              display: flex;
+              font-size: 19px;
+              font-weight: 500;
+              width: 30px;
+            }
+          }
+          .days1_op3 {
+            color: rgb(88, 143, 88);
+            font-weight: 500;
+          }
+        }
+      }
+    }
+    .d2_op_4 {
+      p {
+        font-size: x-large;
+        font-weight: 500;
+        color: rgb(46, 46, 46);
+      }
+      .mental_bar_graph {
+        width: 100%;
+        height: 30vh;
+      }
+    }
+  }
+}

@@ -1,23 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Login from "./Login";
+import Home from "./Home";
+import { useEffect, useState } from "react";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 function App() {
+  const [user, setuser] = useState();
+  useEffect(() => {
+    var data = localStorage.getItem("data");
+    setuser(data);
+  }, []);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Router>
+        {user ? (
+          <Switch>
+            <Route path="/">
+              <Home />
+            </Route>
+          </Switch>
+        ) : (
+          <Switch>
+            <Route path="/">
+              <Login />
+            </Route>
+          </Switch>
+        )}
+      </Router>
     </div>
   );
 }
